@@ -1,18 +1,23 @@
 name: Sync with template
 
 on:
-  push:
-    branches:
-      - main
-
+    # cronjob trigger
+  schedule:
+  - cron:  "0 0 1 * *"
+  # manual trigger
+  workflow_dispatch:
 jobs:
-  sync:
+  repo-sync:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - name: Template Sync
-        uses: AndreasAugustin/actions-template-sync@v1.1.0
+      # To use this repository's private action, you must check out the repository
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: actions-template-sync
+        uses: AndreasAugustin/actions-template-sync@v1.1.3
         with:
-          source_repo: "https://github.com/BIOM421/Lesson1-GitHub-Python"
-          source_branch: "main"
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          source_repo_path: <owner/repo>
+          upstream_branch: <target_branch> # defaults to main
+          pr_labels: <label1>,<label2>[,...] # optional, no default
