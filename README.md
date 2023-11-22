@@ -1,7 +1,5 @@
 # :wave: The Basics of GitHub 
 
-TESTING TO SEE IF changes to sync with template.
-
 **This is your first assignment.**  Read below to learn about GitHub, which we will be using extensively throughout BIOM 421.  When you get to the bottom, you will be asked to write a very simple Python code and then push it to your GitHub Repository.
 
 ## 🤓 Course overview and learning outcomes 
