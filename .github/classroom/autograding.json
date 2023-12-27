@@ -1,6 +1,36 @@
 {
   "tests": [
     {
+      "name": "Hello",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest .github/tag/ht.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Hello N",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest .github/tag/htN.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "run notebook",
+      "setup": "pip install jupyterlab numpy",
+      "run": "jupyter execute Homework1_ProblemSet",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
       "name": "Q1",
       "setup": "sudo -H pip3 install pytest numpy",
       "run": "pytest -k testQ001 .github/tag/akhwk1.py",
