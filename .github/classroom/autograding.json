@@ -3,7 +3,7 @@
     {
       "name": "Hello",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest .github/tag/ht.py",
+      "run": "pytest ht.py",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -13,7 +13,7 @@
     {
       "name": "Hello N",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest .github/tag/htN.py",
+      "run": "pytest htN.py",
       "input": "",
       "output": "",
       "comparison": "exact",
