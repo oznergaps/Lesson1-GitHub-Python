@@ -9,10 +9,7 @@ Created on Wed Dec 27 07:37:22 2023
 import pickle
 import numpy as np
 
-
- # Read the lines and store numbers as floats and strings as strings
 fn = 'Hwk1Data.pkl'
-    #Read and print 
 with open(fn, 'rb') as file:
     datadict = pickle.load(file)
     
@@ -24,7 +21,7 @@ correctAnswers = {'q1':'Hello my name is Name',
     'q2':string_2.upper(),
     'q3':f"I bought {datadict['number']} {datadict['fruit']} on {datadict['day']}.",
     'q4':datadict['string_4'].count('a'),
-    'q5':''.join(datadict['string_4'].split(' ')),
+    'q5':''.join(datadict['string_5'].split(' ')),
     'q6':len(datadict['string_6']),
     'q7':piStr,
     'q8':sum(datadict['xData'])/len(datadict['xData']),
@@ -34,7 +31,6 @@ correctAnswers = {'q1':'Hello my name is Name',
     'q12':datadict['List12'][::2]}
   
 fn = 'Hwk1Answers.pkl'
-    #Read and print 
 with open(fn, 'rb') as file:
     answerdict = pickle.load(file)
   
@@ -46,7 +42,7 @@ def checkTolerance(a,b):
     print(f'relAbsDiff = {relAbsDiff}')
     return relAbsDiff<=0.05
 
-def runTest(q):  # Test for floats and simple strings
+def runTest(q): 
     if is_numeric(correctAnswers[q]):
         return checkTolerance(answerdict[q],correctAnswers[q])
     else:
@@ -61,6 +57,15 @@ def runListTest(q):
         for i in range(len(correctList)):
             if answerList[i]!=correctList[i]:
                 return False
+    return True
+        
+def runUnsortedListTest(q):
+    answerList = answerdict[q]
+    correctList = correctAnswers[q]
+    if len(answerList)!=len(correctList):
+        return False
+    else:
+        return answerList.sort()==correctList.sort()
     return True
         
 def runDictTest(q):
@@ -102,10 +107,12 @@ def test_Q008():
 def test_Q009():
     assert answerdict['q9'] == correctAnswers['q9']
 
-def test_Q010():
-    assert runListTest('q10')
+def test_Q010():  
+    assert runUnsortedListTest('q10')
     
 def test_Q011():
     assert runDictTest('q11')
 
+def test_Q012():
+    assert runListTest('q12')
 
