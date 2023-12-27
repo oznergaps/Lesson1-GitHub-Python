@@ -97,8 +97,8 @@ You can check out the GitHub Explore website [at github.com/explore](https://git
   * It should print the string "Hello World!" exactly as shown.
 * (**Step 3**) You must save this script, commit it, and push it to this repository.
 * (**Step 4**) Verify that your code passes the python test that will run upon committing.
-* (**Step 5**) When it is working and you have created your markdown file, open a pull request and let me know that you’ve finished this assignment.
-* (**Step 6**) Continue with the rest of the first assignment on canvas.  
+* (**Step 5**) Continue with the rest of the first assignment on canvas.
+* (**Step 6**) When everything is working and you have created your markdown file, open a pull request and let me know that you’ve finished this assignment. 
 * (**Optional**) Add more information to your profile README. Let the world know a little bit more about you! What are you interested in learning? What are you working on? What's your favorite hobby? Learn more about creating your profile README in the document, ["Managing Your Profile README"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
 * (**Optional**) Go to your user dashboard and create a new repository. Experiment with the features within that repository to familiarize yourself with them. 
 
