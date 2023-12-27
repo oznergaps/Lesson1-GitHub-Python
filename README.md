@@ -91,15 +91,14 @@ GitHub Explore is a great place to do just that … explore :smile: You can find
 You can check out the GitHub Explore website [at github.com/explore](https://github.com/explore). The more you interact with GitHub the more tailored your Explore view will be. 
 
 ## 📝 Next Steps (your graded assignment). 
-
-* (**Step 1**) Write your first python script with the following specifications:
+* (**Step 1**) Save a back up of the current README for this repository as README_BKP. Then create a new README file for this repository. Your new README me must have: Your Name, Your Email, Your GitHub ID, and a photo/image (can be of yourself, a pet, a drawing yourself).
+* (**Step 2**) Write your first python script with the following specifications:
   * It must be named exactly "hello.py"
   * It should print the string "Hello World!" exactly as shown.
-* (**Step 2**) You must save this script, commit it, and push it to this repository.
-* (**Step 3**) Verify that your code passes the python test that will run upon committing.
-* (**Step 4**) Create a new markdown file in this repository. Let me know what you learned and what you are still confused about! Experiment with different styles!
+* (**Step 3**) You must save this script, commit it, and push it to this repository.
+* (**Step 4**) Verify that your code passes the python test that will run upon committing.
 * (**Step 5**) When it is working and you have created your markdown file, open a pull request and let me know that you’ve finished this assignment.  
-* (**Optional**) Create your profile README. Let the world know a little bit more about you! What are you interested in learning? What are you working on? What's your favorite hobby? Learn more about creating your profile README in the document, ["Managing Your Profile README"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
+* (**Optional**) Add more information to your profile README. Let the world know a little bit more about you! What are you interested in learning? What are you working on? What's your favorite hobby? Learn more about creating your profile README in the document, ["Managing Your Profile README"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
 * (**Optional**) Go to your user dashboard and create a new repository. Experiment with the features within that repository to familiarize yourself with them. 
 
 ## 📚  Resources 
