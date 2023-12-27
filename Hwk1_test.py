@@ -75,37 +75,37 @@ def runDictTest(q):
     return True
 
 
-def test_Q1():
+def test_Q001():
     assert runTest('q1')
 
-def test_Q2():
+def test_Q002():
     assert answerdict['q2'] == correctAnswers['q2']
     
-def test_Q3():
+def test_Q003():
     assert answerdict['q3'] == correctAnswers['q3']
     
-def test_Q4():
+def test_Q004():
     assert answerdict['q4'] == correctAnswers['q4']
     
-def test_Q5():
+def test_Q005():
     assert answerdict['q5'] == correctAnswers['q5']
     
-def test_Q6():
+def test_Q006():
     assert answerdict['q6'] == correctAnswers['q6']
 
-def test_Q7():
+def test_Q007():
     assert answerdict['q7'] == correctAnswers['q7']
 
-def test_Q8():
+def test_Q008():
     assert runTest('q8')
 
-def test_Q9():
+def test_Q009():
     assert answerdict['q9'] == correctAnswers['q9']
 
-def test_Q10():
+def test_Q010():
     assert runListTest('q10')
     
-def test_Q11():
+def test_Q011():
     assert runDictTest('q11')
 
 
