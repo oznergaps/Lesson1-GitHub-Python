@@ -13,7 +13,7 @@
     {
       "name": "Hello N",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest htN.py",
+      "run": "pytest htn.py",
       "input": "",
       "output": "",
       "comparison": "exact",
