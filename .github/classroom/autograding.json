@@ -12,7 +12,7 @@
     },
     {
       "name": "Hello N",
-      "run": "pytest -k test_hello ht.py",
+      "run": "pytest -k test_Nhello ht.py",
       "input": "",
       "output": "",
       "comparison": "exact",
