@@ -1,6 +1,6 @@
 # :wave: The Basics of GitHub 
 
-**This is your first assignment.**  Read below to learn about GitHub, which we will be using extensively throughout BIOM 421.  When you get to the bottom, you will be asked to write a new README for this repository, to write a very simple Python code, and to complete a preliminary Python notebook, and then push these all to your GitHub Repository.
+**This is your first assignment.**  Read below to learn about GitHub, which we will be using extensively throughout BIOM 421.  When you get to the bottom, you will be asked to (1) write a new README for this repository, (2) write a very simple Python code, and (3) complete a preliminary Python notebook, and then (4) push these all to your GitHub Repository.
 
 ## 🤓 Course overview and learning outcomes 
 
