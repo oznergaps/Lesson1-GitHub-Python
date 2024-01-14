@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "Hello",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest ht.py",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest -k test_hello ht.py",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -12,8 +12,7 @@
     },
     {
       "name": "Hello N",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest htn.py",
+      "run": "pytest -k test_hello ht.py",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -22,7 +21,7 @@
     },
     {
       "name": "run notebook",
-      "setup": "pip install jupyterlab numpy",
+      "setup": "pip install jupyterlab",
       "run": "jupyter execute Homework1_ProblemSet",
       "input": "",
       "output": "",
@@ -32,7 +31,6 @@
     },
     {
       "name": "Q1",
-      "setup": "sudo -H pip3 install pytest numpy",
       "run": "pytest -k testQ001 .github/tag/akhwk1.py",
       "input": "",
       "output": "",
@@ -42,7 +40,6 @@
     },
     {
       "name": "Q2",
-      "setup": "sudo -H pip3 install pytest numpy",
       "run": "pytest -k testQ002 .github/tag/akhwk1.py",
       "input": "",
       "output": "",
@@ -52,7 +49,6 @@
     },
     {
       "name": "Q3",
-      "setup": "sudo -H pip3 install pytest numpy",
       "run": "pytest -k testQ003 .github/tag/akhwk1.py",
       "input": "",
       "output": "",
@@ -62,7 +58,6 @@
     },
     {
       "name": "Q4",
-      "setup": "sudo -H pip3 install pytest numpy",
       "run": "pytest -k testQ004 .github/tag/akhwk1.py",
       "input": "",
       "output": "",
@@ -72,7 +67,6 @@
     },
     {
       "name": "Q5",
-      "setup": "sudo -H pip3 install pytest numpy",
       "run": "pytest -k testQ005 .github/tag/akhwk1.py",
       "input": "",
       "output": "",
@@ -82,7 +76,6 @@
     },
     {
       "name": "Q6",
-      "setup": "sudo -H pip3 install pytest numpy",
       "run": "pytest -k testQ006 .github/tag/akhwk1.py",
       "input": "",
       "output": "",
@@ -92,7 +85,6 @@
     },
     {
       "name": "Q7",
-      "setup": "sudo -H pip3 install pytest numpy",
       "run": "pytest -k testQ007 .github/tag/akhwk1.py",
       "input": "",
       "output": "",
@@ -102,7 +94,6 @@
     },
     {
       "name": "Q8",
-      "setup": "sudo -H pip3 install pytest numpy",
       "run": "pytest -k testQ008 .github/tag/akhwk1.py",
       "input": "",
       "output": "",
@@ -112,7 +103,6 @@
     },
     {
       "name": "Q9",
-      "setup": "sudo -H pip3 install pytest numpy",
       "run": "pytest -k testQ009 .github/tag/akhwk1.py",
       "input": "",
       "output": "",
@@ -122,7 +112,6 @@
     },
     {
       "name": "Q10",
-      "setup": "sudo -H pip3 install pytest numpy",
       "run": "pytest -k testQ010 .github/tag/akhwk1.py",
       "input": "",
       "output": "",
@@ -132,7 +121,6 @@
     },
     {
       "name": "Q11",
-      "setup": "sudo -H pip3 install pytest numpy",
       "run": "pytest -k testQ011 .github/tag/akhwk1.py",
       "input": "",
       "output": "",
@@ -142,7 +130,6 @@
     },
     {
       "name": "Q12",
-      "setup": "sudo -H pip3 install pytest numpy",
       "run": "pytest -k testQ012 .github/tag/akhwk1.py",
       "input": "",
       "output": "",
