@@ -4,7 +4,7 @@ import numpy as np
 with open('Hwk1Data.pkl','rb')as f:datadict=pickle.load(f)
 s2='i would like to be uppercase';piStr='%5.3e'%(np.pi**datadict['nPower'])
 myDict={datadict['Student_IDs'][i]:datadict['Student_names'][i]for i in range(len(datadict['Student_names']))}
-cA={'q1':'Hello my name is Name','q2':s2.upper(),'q3':f"I bought {datadict['number']} {datadict['fruit']} on {datadict['day']}.",'q4':datadict['string_4'].count('a'),'q5':''.join(datadict['string_5'].split(' ')),'q6':len(datadict['string_6']),'q7':piStr,'q8':sum(datadict['xData'])/len(datadict['xData']),'q9':datadict['xData'][-1],'q10':list(set(datadict['List10'])),'q11':myDict,'q12':datadict['List12'][::2]}
+cA={'q1':'Hello my name is Name','q2':s2.upper(),'q3':f"I bought {datadict['number']} {datadict['fruit']} on {datadict['day']}.",'q4':datadict['string_4'].count('a'),'q5':''.join(datadict['string_5'].split(' ')),'q6':len(datadict['string_6']),'q7':piStr.lower(),'q8':sum(datadict['xData'])/len(datadict['xData']),'q9':datadict['xData'][-1],'q10':list(set(datadict['List10'])),'q11':myDict,'q12':datadict['List12'][::2]}
 with open('Hwk1Answers.pkl','rb')as f:adt=pickle.load(f)
 def f(v):return isinstance(v,(int,float,complex))
 def c(a,b):return abs(a-b)/abs(b)<=0.05
