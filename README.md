@@ -1,6 +1,6 @@
 # :wave: The Basics of GitHub 
 
-**This is your first assignment.**  Read below to learn about GitHub, which we will be using extensively throughout BIOM 421.  When you get to the bottom, you will be asked to write a new README for this repository, to write a very simple Python code, and to complete a preliminary Python notebook, and then push these all to your GitHub Repository.
+**This is your first assignment.**  Read below to learn about GitHub, which we will be using extensively throughout BIOM 421.  When you get to the bottom, you will be asked to (1) write a new README for this repository, (2) write a very simple Python code, and (3) complete a preliminary Python notebook, and then (4) push these all to your GitHub Repository.
 
 ## 🤓 Course overview and learning outcomes 
 
@@ -91,6 +91,7 @@ GitHub Explore is a great place to do just that … explore :smile: You can find
 You can check out the GitHub Explore website [at github.com/explore](https://github.com/explore). The more you interact with GitHub the more tailored your Explore view will be. 
 
 ## 📝 Next Steps (Part 1 of your graded assignment). 
+* (**Step 0**) Use GitHub Desttop (or another program if you prefer) to make a local clone of this repository on your personal computer. All changes should then be made on that clone before committing and pushing your changes to submit your work.
 * (**Step 1**) Save a back up of the current README for this repository as README_BKP. Then create a new README file for this repository. Your new README me must have: Your Name, Your Email, Your GitHub ID, and a photo/image (can be of yourself, a pet, a drawing, etc.).
 * (**Step 2**) Use Spyder to write your first python script with the following specifications:
   * The program file name must be exactly "hello.py"
