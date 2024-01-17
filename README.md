@@ -91,6 +91,7 @@ GitHub Explore is a great place to do just that … explore :smile: You can find
 You can check out the GitHub Explore website [at github.com/explore](https://github.com/explore). The more you interact with GitHub the more tailored your Explore view will be. 
 
 ## 📝 Next Steps (Part 1 of your graded assignment). 
+* (**Step 0**) Use GitHub Desttop (or another program if you prefer) to make a local clone of this repository on your personal computer. All changes should then be made on that clone before committing and pushing your changes to submit your work.
 * (**Step 1**) Save a back up of the current README for this repository as README_BKP. Then create a new README file for this repository. Your new README me must have: Your Name, Your Email, Your GitHub ID, and a photo/image (can be of yourself, a pet, a drawing, etc.).
 * (**Step 2**) Use Spyder to write your first python script with the following specifications:
   * The program file name must be exactly "hello.py"
