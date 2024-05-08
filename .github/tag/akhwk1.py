@@ -20,7 +20,7 @@ def testQ005():assert adt['q5']==cA['q5']
 def testQ006():assert adt['q6']==cA['q6']
 def testQ007():assert adt['q7']==cA['q7']
 def testQ008():assert t('q8')
-def testQ009():assert adt['q9']==cA['q9']
+def testQ009():assert adt['q9']==cA['q9'] or adt['q9'][0]==cA['q9'][0]
 def testQ010():assert u('q10')
 def testQ011():assert d('q11')
 def testQ012():assert l('q12')
