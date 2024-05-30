@@ -102,7 +102,7 @@ You can check out the GitHub Explore website [at github.com/explore](https://git
 * (**Step 4**) Verify that your code passes the python test that will run upon committing.
 * (**Step 5**) Open the notebook "Hwk1_Questions.ipynb" and complete all questions.
 * (**Step 6**) Save the notebook, commit it on GitHub, and verify that your submission passes all tests that run upon committing.
-* (**Step 7**) When everything is working and you have created your markdown file, open a pull request and let me know that you’ve finished this assignment. 
+<!-- * (**Step 7**) When everything is working and you have created your markdown file, open a pull request and let me know that you’ve finished this assignment. --> 
 * (**Optional**) Add more information to your profile README. Let the world know a little bit more about you! What are you interested in learning? What are you working on? What's your favorite hobby? Learn more about creating your profile README in the document, ["Managing Your Profile README"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
 * (**Optional**) Go to your user dashboard and create a new repository. Experiment with the features within that repository to familiarize yourself with them. 
 
